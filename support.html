@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Chalkline</title>
+<meta name="description" content="Help with Chalkline: stamps, location, fingerprints, reports, sync and subscriptions.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <img src="assets/icon.png" alt="Chalkline app icon">
+  <span class="name">Chalkline</span>
+  <nav><a href="index.html">Home</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Support</h1>
+    <hr class="rule">
+    <p class="lede">Email <a href="mailto:support@chalklineapp.com">support@chalklineapp.com</a> and you'll get a reply within two working days. Telling us your device and iOS version helps.</p>
+  </section>
+
+  <h2>Common questions</h2>
+
+  <h3>Why is my photo stamped with the wrong time zone?</h3>
+  <p>The stamp uses your device's time zone, not the site's. If you photograph a job in another region, the stamp shows the time as your phone had it. The coordinates and address still record where the photo was taken.</p>
+
+  <h3>A photo says "Coordinates: Not recorded"</h3>
+  <p>That happens when location was unavailable at the moment of capture — permission declined, no fix indoors, or the photo was imported from your library rather than taken in the app. Imported photos are deliberately not given a location, because where you are when you import is not where the photo was taken. The photo is still stamped with the date and time.</p>
+
+  <h3>What does the fingerprint mean?</h3>
+  <p>When a photo is captured, Chalkline calculates a SHA-256 fingerprint of the image and stores it. Changing so much as a single pixel produces a different fingerprint, so a photo that still matches its recorded value has not been edited since it was taken. The report prints a short form of it beneath each photo.</p>
+  <p>This is designed to detect ordinary alteration — a photo quietly edited or swapped after the fact. It is not a cryptographic proof of authorship: the fingerprint is stored on the same device as the photo.</p>
+
+  <h3>Does annotating a photo break its fingerprint?</h3>
+  <p>No. Arrows and circles are stored alongside the image and drawn over it when displayed or exported. The original pixels are never modified, so an annotated photo still matches its original fingerprint.</p>
+
+  <h3>My jobs aren't syncing to my iPad</h3>
+  <p>Sync requires an active Chalkline Pro subscription, both devices signed in to the same Apple Account, and iCloud Drive enabled in <em>Settings &rsaquo; Apple Account &rsaquo; iCloud</em>. Sync runs in the background and can take a few minutes over a slow connection. If a device has never had a signal, open the app while connected once.</p>
+
+  <h3>How do I manage or cancel my subscription?</h3>
+  <p>Subscriptions are handled by Apple, not by us. Open <em>Settings &rsaquo; Apple Account &rsaquo; Subscriptions</em> on your device, or tap <em>Manage Subscription</em> in Chalkline's Settings. Cancel at least 24 hours before the period ends to avoid renewal.</p>
+
+  <h3>I paid but the app still shows Free</h3>
+  <p>Open <em>Settings &rsaquo; Restore Purchases</em> in the app. This checks the Apple Account currently signed in on the device — if you subscribed with a different Apple Account, sign in with that one first.</p>
+
+  <h3>What does the free plan include?</h3>
+  <p>Up to three active jobs, unlimited photos on each, full stamping, annotation, sign-off and PDF export. Free reports carry a small Chalkline line at the foot of each page. Archived jobs do not count toward the three, so finishing a job frees a slot.</p>
+
+  <h3>How do I get my data out?</h3>
+  <p>Open a job and tap the share icon to export the whole job as a PDF. Individual photos can be shared with their stamp from the photo screen. Nothing is locked in.</p>
+
+  <h3>I deleted a photo by mistake</h3>
+  <p>Deletion is immediate and cannot be undone in the app. If the job had already synced to iCloud, the deletion syncs too. Export a report before clearing out a job you may need later.</p>
+
+  <h3>Can I change the app's language?</h3>
+  <p>Chalkline follows your device language and ships in twelve. To set it for this app alone, go to <em>Settings &rsaquo; Apps &rsaquo; Chalkline &rsaquo; Language</em>. That option only appears once your device has more than one preferred language added under <em>Settings &rsaquo; General &rsaquo; Language &amp; Region</em>.</p>
+
+  <h2>Reporting a problem</h2>
+  <p>If something is wrong, email us with what you did, what you expected, and what happened instead. A screenshot helps. Please do not send client photographs or site data unless they are genuinely needed to explain the fault — we would rather not receive them.</p>
+</main>
+<footer class="site"><div class="wrap">
+  <a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a>
+  <p style="margin-top:14px">&copy; 2026 Kasun Rangana M W. Chalkline is not affiliated with Apple Inc.</p>
+</div></footer>
+</body>
+</html>
