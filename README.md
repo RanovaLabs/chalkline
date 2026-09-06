@@ -10,13 +10,13 @@ on a free plan.
 | `privacy.html` | **Privacy Policy URL** for App Store Connect. Required, and App Review checks it resolves. Facebook also requires a privacy policy URL for business pages and lead ads. |
 | `support.html` | **Support URL** for App Store Connect. Required. |
 
-## Before you publish
+## Contact address
 
-**Replace `support@chalklineapp.com`.** It appears on `privacy.html`,
-`support.html`, and in the app's `LegalLinks`. It is a placeholder — that domain
-is not registered. Either register it, or swap in an address you already
-control. A support URL whose contact address bounces is a real problem for users
-and a weak point at review.
+Support and privacy enquiries go to `chalkline.app@icloud.com`, an alias on the
+developer's Apple Account. Both pages link to it. If it ever changes, update
+`privacy.html` and `support.html` together — nothing in the app itself carries
+the address, since Settings > Contact Support opens `support.html` rather than a
+mail composer.
 
 ## If you register a domain later
 
