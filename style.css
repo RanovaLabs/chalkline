@@ -35,6 +35,7 @@ header.site .wrap {
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
   padding-top: 14px; padding-bottom: 14px;
 }
+header.site .brand { display: flex; align-items: center; gap: inherit; color: inherit; text-decoration: none; }
 header.site img { width: 34px; height: 34px; border-radius: 8px; }
 header.site .name { font-weight: 700; letter-spacing: -0.01em; }
 header.site nav { margin-left: auto; display: flex; gap: 20px; }
