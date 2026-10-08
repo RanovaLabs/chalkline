@@ -12,9 +12,10 @@ on a free plan.
 
 ## Contact address
 
-Support and privacy enquiries go to `chalkline.app@icloud.com`, an alias on the
-developer's Apple Account. Both pages link to it. If it ever changes, update
-`privacy.html` and `support.html` together — nothing in the app itself carries
+Support and privacy enquiries go to `ranovalabs@icloud.com`, the Ranova Labs
+address shared by all its apps. The pages and the shared footer
+(`assets/ranova-frame.css` styles it) link to it. If it ever changes, update
+every page together — nothing in the app itself carries
 the address, since Settings > Contact Support opens `support.html` rather than a
 mail composer.
 
